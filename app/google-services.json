@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "68053520597",
+    "firebase_url": "https://screengods.firebaseio.com",
+    "project_id": "screengods",
+    "storage_bucket": "screengods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68053520597:android:2f73c770377672a2",
+        "android_client_info": {
+          "package_name": "com.example.michaelusa.screengods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68053520597-mn68f5v63sjbbib8h2qsl5iupec434g1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michaelusa.screengods",
+            "certificate_hash": "a666c23b12bdb059cfd4c8530b878b5919d5ebcb"
+          }
+        },
+        {
+          "client_id": "68053520597-pi7nkpm988msc9lqgibbtt56rmvkb13c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnC9GxA0Zuea_XzaFS3CIGk-nmxBlBck8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68053520597-pi7nkpm988msc9lqgibbtt56rmvkb13c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

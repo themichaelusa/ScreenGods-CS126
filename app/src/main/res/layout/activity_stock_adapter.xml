@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5B39C9">
+
+    <!-- Note that what follows is slightly different from lecture.  To get the TextViews to
+        fill the space up to but not into the edges, I've set their width to 0dp.  This is the
+        way to do it in the most recent version of ConstraintLayout -->
+
+    <TextView
+        android:id="@+id/tickerListItem"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="AMD"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <!-- using 'tools' instead of 'android' below provides the dummy text for use in
+            Android studio, but doesn't include it when you build the App. -->
+
+    <TextView
+        android:id="@+id/ulimListItem"
+        android:layout_width="235dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="142dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        tools:text="Upper Limit:" />
+
+    <TextView
+        android:id="@+id/llimListItem"
+        android:layout_width="235dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="142dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768"
+        tools:text="Lower Limit:" />
+
+</android.support.constraint.ConstraintLayout>

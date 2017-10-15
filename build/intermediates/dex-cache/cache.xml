@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/michaelusa/.android/build-cache/282b71677b136175b51909d514c7748ccdf72b77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/michaelusa/Documents/Dev/CS@UIUC/CS126/ASProjects/ScreenGods/app/build/intermediates/pre-dexed/debug/classes_7287e29a0ac48efa64edad9ff5feb6abbd143670.jar" />
+    </item>
+
+</items>
